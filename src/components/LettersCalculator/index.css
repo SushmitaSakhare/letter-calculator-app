@@ -1,0 +1,82 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: auto;
+  background-size: cover;
+  padding: 20px;
+  height: 100vh;
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-family: 'roboto';
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 50px;
+  height: auto;
+  width: 50%;
+}
+
+.heading {
+  font-size: 45px;
+  width: 300px;
+}
+
+label {
+  font-size: 15px;
+}
+
+.entering-phrase {
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+  outline: none;
+  padding: 5px;
+  height: 30px;
+  width: 500px;
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: bolder;
+  outline: none;
+}
+
+.count-card {
+  background-color: #ffffff;
+  color: #219a6f;
+  height: 70px;
+  width: 230px;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-top: 15px;
+  border: none;
+  font-family: 'roboto';
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+}
+
+.image-container {
+  width: 70%;
+  padding: 20px;
+}
+
+.image {
+  padding: 20px;
+  width: 80%;
+}
